@@ -1,0 +1,7 @@
+id = "fafo"
+name = "Fuck Around Find Out"
+version = "0.1.0"
+schema_version = 1
+authors = ["Brayden"]
+description = "Golden-hour and cyan-lit palettes, each with light, dark, and native blurred variants."
+repository = "https://github.com/binbandit/fafo.zed"
