@@ -1,0 +1,29 @@
+# Tables, bare / dotted / quoted keys, dates, and multiline strings.
+name = "Fuck Around Find Out"
+"opening-hours" = "06:00-23:00"
+doors_open = true
+plants = 16
+exposure = 0.85
+opened = 2026-09-29T06:00:00+10:00
+materials = ["plaster", "walnut", "steel"]
+room.light = "golden"
+description = """
+A room for bold ideas.
+Follow the light.
+"""
+
+[palettes.daytime]
+canvas = "sunlit plaster"
+accents = { copper = "#943C20", olive = "#416035" }
+
+[palettes."nighttime"]
+canvas = "blue-black shadows"
+accents = { cyan = "#76C9DA", orange = "#F0A06C" }
+
+[[sessions]]
+hour = 6
+active = true
+
+[[sessions]]
+hour = 23
+active = false

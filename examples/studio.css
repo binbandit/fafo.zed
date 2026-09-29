@@ -1,0 +1,22 @@
+/* Light changes. The room stays yours. */
+:root {
+  --plaster: #f3e5ca;
+  --walnut: #33291f;
+  --copper: #943c20;
+}
+
+.studio[data-light="golden"] {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  color: var(--walnut);
+  background: var(--plaster);
+}
+
+.studio > a:hover {
+  color: var(--copper);
+}
+
+@media (max-width: 48rem) {
+  .studio { grid-template-columns: 1fr; }
+}

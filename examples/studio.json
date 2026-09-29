@@ -1,0 +1,15 @@
+{
+  "name": "Fuck Around Find Out",
+  "daytime": {
+    "light": "golden",
+    "temperature": 3200,
+    "doorsOpen": true
+  },
+  "nighttime": {
+    "light": "moonlit",
+    "temperature": 6500,
+    "doorsOpen": false
+  },
+  "materials": ["plaster", "walnut", "steel", "leaves"],
+  "nextExperiment": null
+}
